@@ -1,0 +1,42 @@
+[
+ {
+  "engine": "SQLite FTS5 porter (repo config)",
+  "ndcg10": 0.6817,
+  "recall100": 0.9253,
+  "empty_results": 0,
+  "p50_ms": 5.06,
+  "p95_ms": 11.25,
+  "build_s": 0.18,
+  "index_mb": 17.7
+ },
+ {
+  "engine": "DuckDB FTS builtin (repo config)",
+  "ndcg10": 0.6808,
+  "recall100": 0.926,
+  "empty_results": 0,
+  "p50_ms": 8.72,
+  "p95_ms": 11.59,
+  "build_s": 7.17,
+  "index_mb": 13.3
+ },
+ {
+  "engine": "Tantivy en_stem (repo config)",
+  "ndcg10": 0.6667,
+  "recall100": 0.9016,
+  "empty_results": 0,
+  "p50_ms": 0.31,
+  "p95_ms": 0.57,
+  "build_s": 0.2,
+  "index_mb": 2.8
+ },
+ {
+  "engine": "Postgres 17 (repo config)",
+  "ndcg10": 0.5596,
+  "recall100": 0.8472,
+  "empty_results": 0,
+  "p50_ms": 6.61,
+  "p95_ms": 12.1,
+  "build_s": 1.0,
+  "index_mb": 19.7
+ }
+]

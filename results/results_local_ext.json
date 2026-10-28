@@ -1,0 +1,12 @@
+[
+ {
+  "engine": "DuckDB+tantivy community ext",
+  "ndcg10": 0.6839,
+  "recall100": 0.9213,
+  "empty_results": 0,
+  "p50_ms": 385.43,
+  "p95_ms": 647.09,
+  "build_s": 6.86,
+  "index_mb": 0.0
+ }
+]

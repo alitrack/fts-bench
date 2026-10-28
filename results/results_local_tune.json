@@ -1,0 +1,32 @@
+[
+ {
+  "engine": "Tantivy raw (no stem)",
+  "ndcg10": 0.0,
+  "recall100": 0.0,
+  "empty_results": 195,
+  "p50_ms": 0.08,
+  "p95_ms": 0.17,
+  "build_s": 0.99,
+  "index_mb": 8.8
+ },
+ {
+  "engine": "DuckDB FTS no-stopwords",
+  "ndcg10": 0.6924,
+  "recall100": 0.9287,
+  "empty_results": 0,
+  "p50_ms": 12.65,
+  "p95_ms": 17.52,
+  "build_s": 8.06,
+  "index_mb": 14.0
+ },
+ {
+  "engine": "SQLite FTS5 unicode61 (no porter)",
+  "ndcg10": 0.6684,
+  "recall100": 0.8859,
+  "empty_results": 0,
+  "p50_ms": 5.14,
+  "p95_ms": 12.1,
+  "build_s": 0.2,
+  "index_mb": 18.0
+ }
+]
