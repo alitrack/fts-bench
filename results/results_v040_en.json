@@ -1,0 +1,27 @@
+[
+ {
+  "engine": "duckdb-tantivy v0.4.0 persistent (en)",
+  "ndcg10": 0.6839,
+  "recall100": 0.9213,
+  "empty_results": 0,
+  "p50_ms": 1.45,
+  "p95_ms": 2.06,
+  "build_s": 0.4,
+  "index_mb": 3.0
+ },
+ {
+  "engine": "duckdb-tantivy v0.4.0 ephemeral (en)",
+  "ndcg10": 0.6839,
+  "recall100": 0.9213,
+  "empty_results": 0,
+  "p50_ms": 329.46,
+  "p95_ms": 350.7,
+  "build_s": -1,
+  "index_mb": -0.0
+ },
+ {
+  "engine": "bit-identity persist vs ephemeral (en)",
+  "queries": 300,
+  "diffs": 0
+ }
+]

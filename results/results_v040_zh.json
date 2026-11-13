@@ -1,0 +1,32 @@
+[
+ {
+  "engine": "duckdb-tantivy v0.4.0 persistent zh native-jieba OR (full 3999)",
+  "ndcg10": 0.1409,
+  "recall100": 0.3357,
+  "empty_results": 0,
+  "p50_ms": 26.02,
+  "p95_ms": 31.81,
+  "build_s": 9.78,
+  "index_mb": 54.5
+ },
+ {
+  "engine": "duckdb-tantivy v0.4.0 persistent zh native-jieba AND (full 3999)",
+  "ndcg10": 0.0007,
+  "recall100": 0.0006,
+  "empty_results": 3994,
+  "p50_ms": 0.89,
+  "p95_ms": 1.9,
+  "build_s": -1,
+  "index_mb": -0.0
+ },
+ {
+  "engine": "duckdb-tantivy v0.4.0 ephemeral zh native-jieba OR (n=150)",
+  "ndcg10": 0.148,
+  "recall100": 0.3314,
+  "empty_results": 0,
+  "p50_ms": 8567.5,
+  "p95_ms": 11703.88,
+  "build_s": -1,
+  "index_mb": -1
+ }
+]
